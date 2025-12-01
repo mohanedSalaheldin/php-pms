@@ -24,11 +24,7 @@ require_once __DIR__ . '/../core/functions.php';
     $_SESSION['success'] = "Your message has been sent successfully!";
     header('Location: ../views/contact.php');
     exit;
-// }
 
-// $_SESSION['error'] = "Invalid action.";
-// header('Location: ../views/contact.php');
-// exit;
 
 
 function readMsgs()
@@ -59,3 +55,6 @@ function saveMsg(array $msgs)
     // atomic write with LOCK_EX
     file_put_contents($path, $json, LOCK_EX);
 }
+
+
+

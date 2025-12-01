@@ -1,0 +1,23 @@
+[
+    {
+        "id": "692db63634239",
+        "name": "mohaned Salah",
+        "email": "mohnsd2002@gmail.com",
+        "address": "dfdf",
+        "phone": "01122418737",
+        "notes": "note",
+        "cart": [
+            {
+                "name": "mohaned Salah 2",
+                "price": "12",
+                "image": "product_692c3d6a7943a0.72769152.jpg"
+            },
+            {
+                "name": "mohaned Salah 2",
+                "price": "12",
+                "image": "product_692c3d6a7943a0.72769152.jpg"
+            }
+        ],
+        "created_at": "2025-12-01 16:37:26"
+    }
+]
