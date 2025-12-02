@@ -20,7 +20,6 @@ function saveUsers(array $users) {
     if (!is_dir($dir)) mkdir($dir, 0755, true);
     $json = json_encode($users, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 
-    // atomic write with LOCK_EX
     file_put_contents($path, $json, LOCK_EX);
 }
 

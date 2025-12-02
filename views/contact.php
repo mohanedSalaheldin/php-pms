@@ -1,5 +1,5 @@
 <?php require_once('../inc/header.php'); ?>
-<?php session_start(); ?>
+<!-- <?php session_start(); ?> -->
 
 <?php if (isset($_SESSION['success'])): ?>
     <div class="alert alert-success">
